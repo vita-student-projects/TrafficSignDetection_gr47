@@ -1,0 +1,6 @@
+train: ../train/images 
+test: ../test/images 
+val: ../valid/images 
+
+nc: 210
+names: ['fish', 'cat', 'person', 'dog', 'shark']
