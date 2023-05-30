@@ -63,7 +63,7 @@ python inference_TS.py --model_path yolov8m_tsd_30epochs.pt --data_path images/0
 
 This will create the file *prediction.txt* file in the folder *predictions_TS* and store all the bounding boxes files in a csv format. The inference time on the image is also displayed.
 
-We also made a script to infer from frames of a video and write in a json file. This script is named *video_inference_TS.py* and requires the frames to be placed in the *work/vita/nmuenger_trinca/annotations/video_frames/* folder in .png format. 
+We also made a script to infer from frames of a video and write in a json file. This script is named *video_inference_TS.py* and requires the frames to be placed in the *work/vita/nmuenger_trinca/annotations/video_frames/* folder in .png format. We have already infered the predictions for test1 and place the .json file in the given [drive](https://drive.google.com/drive/folders/1SgVmu2b1dStE79d5cfFYut_SUjsCvxgw).
 
 ### Testing:
 
