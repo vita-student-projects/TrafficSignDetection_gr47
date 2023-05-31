@@ -133,8 +133,8 @@ Comparison of inference time on one image.
 
 ### Conclusion
 
-By retraining over a powerful pre-existing model, we have been able to implement a traffic sign detection implementation which achieves a mAP50-95 of up to 48.8% for the best (and most complex) model.
-Our results are however limited by the unlabeled signs present in some samples of the dataset we used.
+By retraining over a powerful pre-existing model, we have been able to implement a traffic sign detection implementation which achieves a mAP50-95 of up to 48.8% for the best (and most complex) model.  
+Our results are however limited by the unlabeled signs present in some samples of the dataset we used.  
 Further work could look into how the use of another dataset changes the model’s performance. One such dataset could be the [mapillary dataset](https://www.mapillary.com/dataset/trafficsign) which seems well implemented and contains signs from multiple countries, compared to the one we used which is limited to Belgium.
 
 ### Table with the class names 
