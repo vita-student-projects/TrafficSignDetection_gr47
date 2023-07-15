@@ -63,7 +63,7 @@ python inference_TS.py --model_path yolov8m_tsd_30epochs.pt --data_path images/0
 
 This will create the file *prediction.txt* file in the folder *predictions_TS* and store all the bounding boxes files in a csv format. The inference time on the image is also displayed.
 
-We also made a script to infer from frames of a video and write in a json file. This script is named *video_inference_TS.py* and requires the frames to be placed in the *work/vita/nmuenger_trinca/annotations/video_frames/* folder in .png format. 
+We also made a script to infer from frames of a video and write in a json file. This script is named *video_inference_TS.py* and requires the frames to be placed in the *work/vita/nmuenger_trinca/annotations/video_frames/* folder in .png format. We have already infered the predictions for test1 and place the .json file in the given [drive](https://drive.google.com/drive/folders/1SgVmu2b1dStE79d5cfFYut_SUjsCvxgw).
 
 ### Testing:
 
@@ -130,6 +130,12 @@ Comparison of inference time on one image.
 <p align="center">
 <img src="https://github.com/TicaGit/yolov8_tsd/blob/tibo_yolo_retrain/image_read_me/time_vs_model.jpeg" width="400">
 </p>
+
+### Conclusion
+
+By retraining over a powerful pre-existing model, we have been able to implement a traffic sign detection implementation which achieves a mAP50-95 of up to 48.8% for the best (and most complex) model.  
+Our results are however limited by the unlabeled signs present in some samples of the dataset we used.  
+Further work could look into how the use of another dataset changes the model’s performance. One such dataset could be the [mapillary dataset](https://www.mapillary.com/dataset/trafficsign) which seems well implemented and contains signs from multiple countries, compared to the one we used which is limited to Belgium.
 
 ### Table with the class names 
 
