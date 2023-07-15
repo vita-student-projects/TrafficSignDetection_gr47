@@ -168,3 +168,6 @@ slurm-1377379.out
 #don't ignore yalm files
 !ultralytics/datasets/
 
+#
+.github\workflows\links
+
