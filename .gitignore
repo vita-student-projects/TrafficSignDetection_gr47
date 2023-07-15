@@ -169,5 +169,5 @@ slurm-1377379.out
 !ultralytics/datasets/
 
 # #
-# .github\workflows\links.yml
+.github/workflows/
 
